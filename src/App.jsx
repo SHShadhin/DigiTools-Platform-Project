@@ -1,5 +1,6 @@
 import './App.css'
 import Banner from './components/Banner'
+import Footer from './components/Footer'
 import NavBar from './components/Navbar'
 import Price from './components/Price'
 import Stats from './components/Stats'
@@ -18,6 +19,7 @@ function App() {
       <Steps></Steps>
       <Price></Price>
       <Transform></Transform>
+      <Footer></Footer>
       
     </>
   )
