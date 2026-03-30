@@ -1,0 +1,126 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and copy using advanced AI tools.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "AI content generation",
+      "Grammar correction",
+      "Multiple writing tones"
+    ],
+    "icon": "FaPenNib",
+    "image": "https://i.ibb.co.com/G37DWPVv/writing-2327400-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "Access a wide collection of ready-made design templates for all needs.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["500+ templates", "Editable files", "Commercial use license"],
+    "icon": "FaPaintBrush",
+    "image": "https://i.ibb.co.com/M5BthXwc/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Get unlimited access to high-quality images, videos, and graphics.",
+    "price": 20,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "HD images & videos",
+      "Royalty-free assets",
+      "Unlimited downloads"
+    ],
+    "icon": "FaImages",
+    "image": "https://i.ibb.co.com/fz75YVSq/camera.png"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and boost productivity with smart workflows.",
+    "price": 25,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Workflow automation",
+      "Third-party integrations",
+      "Task scheduling"
+    ],
+    "icon": "FaCogs",
+    "image": "https://i.ibb.co.com/d0jvxgwB/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with ATS-friendly templates.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "FaFileAlt",
+    "image": "https://i.ibb.co.com/4R3Prh6P/portfolio.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Create engaging posts and grow your social media presence.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Content calendar", "Post templates", "Hashtag suggestions"],
+    "icon": "FaHashtag",
+    "image": "https://i.ibb.co.com/N52vPpV/social-media.png"
+  },
+  {
+    "id": 7,
+    "name": "Email Marketing Suite",
+    "description": "Design, send, and track email campaigns with ease.",
+    "price": 18,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Email templates",
+      "Automation workflows",
+      "Analytics dashboard"
+    ],
+    "icon": "FaEnvelope",
+    "image": "https://i.ibb.co.com/N52vPpV/social-media.png"
+  },
+  {
+    "id": 8,
+    "name": "Website Builder Pro",
+    "description": "Build responsive websites quickly with drag-and-drop tools.",
+    "price": 30,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Drag & drop editor", "Custom domains", "Responsive design"],
+    "icon": "FaLaptopCode",
+    "image": "https://i.ibb.co.com/N52vPpV/social-media.png"
+  },
+  {
+    "id": 9,
+    "name": "Online Course Creator",
+    "description": "Create and sell online courses with powerful tools.",
+    "price": 35,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Course builder", "Video hosting", "Student management"],
+    "icon": "FaChalkboardTeacher",
+    "image": "https://i.ibb.co.com/N52vPpV/social-media.png"
+  }
+]
