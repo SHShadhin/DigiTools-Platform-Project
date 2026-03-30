@@ -6,10 +6,10 @@ const Price = () => {
       {/* price content part */}
       <div className="text-center">
         <h2 className="md:text-4xl pt-15 text-3xl font-bold mb-4">
-          Get Started in 3 Steps
+          Simple, Transparent Pricing
         </h2>
         <p className="pb-7">
-          Start using premium digital tools in minutes, not hours.
+          Choose the plan that fits your needs. Upgrade or downgrade anytime.
         </p>
       </div>
 

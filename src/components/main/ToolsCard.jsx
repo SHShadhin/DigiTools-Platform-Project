@@ -5,6 +5,11 @@ const ToolsCard = ({ tool, carts, setCarts }) => {
   const [buyNow, setBuyNow] = useState(false);
   const handleBuyNow = () => {
     setBuyNow(true);
+    const itemFound = carts.find(item => item.id === tool.id)
+      if (itemFound) {
+        toast.error('Item Already in Cart')
+        return;
+    }
     setCarts([...carts,tool])
     toast('Item Added To Cart')
   };
