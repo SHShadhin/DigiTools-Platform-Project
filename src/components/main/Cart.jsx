@@ -1,14 +1,17 @@
 import React from 'react';
 import { CiShoppingCart } from 'react-icons/ci';
+import { toast } from 'react-toastify';
 
 const Cart = ({ carts, setCarts }) => {
   const totalPrice = carts.reduce((sum, item) => sum + item.price, 0);
   const handlePayment = () => {
     setCarts([])
+    toast.success('Payment Successful !')
   }
   const handleRemove = (item) => {
     const filteredCard = carts.filter(i => i.id !== item.id)
     setCarts(filteredCard)
+    toast.success('Item Removed');
   }
   return (
     <div className="max-w-9/12 mx-auto rounded-2xl mb-20 bg-white border border-gray-300 p-10">
@@ -39,7 +42,7 @@ const Cart = ({ carts, setCarts }) => {
                   </div>
                 </div>
                 <div>
-                  <h2 onClick={()=>handleRemove(item)} className="text-red-400 text-xl font-medium">Remove</h2>
+                  <h2 onClick={()=>handleRemove(item)} className="text-red-400 text-xl font-medium cursor-pointer">Remove</h2>
                 </div>
               </div>
             </div>

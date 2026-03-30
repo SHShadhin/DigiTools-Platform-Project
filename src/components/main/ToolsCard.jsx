@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const ToolsCard = ({ tool, carts, setCarts }) => {
   const [buyNow, setBuyNow] = useState(false);
   const handleBuyNow = () => {
     setBuyNow(true);
     setCarts([...carts,tool])
-    
+    toast('Item Added To Cart')
   };
   
   return (
@@ -83,8 +84,12 @@ const ToolsCard = ({ tool, carts, setCarts }) => {
         </ul>
         <div className="mt-4">
           <button
-            onClick={handleBuyNow}
-            className="btn  bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-3xl w-full text-white"
+            onClick={()=>handleBuyNow()}
+            className={`btn rounded-3xl w-full text-white ${
+              buyNow
+                ? 'bg-green-500'
+                : 'bg-gradient-to-r from-[#4F39F6] to-[#9514FA]'
+            }`}
           >
             {buyNow ? 'Added in Cart' : 'Buy Now'}
           </button>

@@ -32,7 +32,7 @@ function App() {
           designed to boost your productivity and creativity.
         </p>
 
-        <div className="tabs tabs-box mt-5 bg-white justify-center">
+        <div className="tabs tabs-box mt-5 bg-white border rounded-3xl border-gray-300 w-83 justify-center mx-auto py-1">
           <input
             type="radio"
             name="my_tabs_1"
