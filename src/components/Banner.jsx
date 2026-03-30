@@ -3,7 +3,7 @@ import bannerImg from '../assets/banner.png';
 import rectangleImg from '/Group 5.png'
 const Banner = () => {
   return (
-    <div className="max-w-9/12 mx-auto md:my-20 my-10 flex flex-col-reverse md:flex-row gap-5 justify-center items-center">
+    <div className="max-w-9/12 mx-auto md:my-20 my-10 flex flex-col-reverse md:flex-row gap-5 justify-between items-center">
       <div className="md:w-1/2 space-y-5">
         <button className="btn bg-[#E1E7FF] text-[#9514FA] rounded-3xl">
           {' '}
@@ -19,12 +19,12 @@ const Banner = () => {
           Products
         </p>
         <div>
-          <p className="btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white mr-4 rounded-3xl">
+          <button className="btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white mr-4 rounded-3xl">
             Explore Products
-          </p>
-          <p className="btn btn-outline text-[#9514FA] rounded-3xl">
+          </button>
+          <button className="btn btn-outline text-[#9514FA] rounded-3xl">
             Watch Demo
-          </p>
+          </button>
         </div>
       </div>
       <div className="md:w-1/2">

@@ -14,8 +14,8 @@ const Steps = () => {
         </p>
       </div>
 
-      <div className="card grid md:grid-cols-3 grid-cols-1 max-w-9/12 mx-auto md:gap-8">
-        <div className="card pb-10 md:mb-20 mb-10 rounded-2xl bg-base-100 shadow-sm relative">
+      <div className="card  grid md:grid-cols-3 grid-cols-1 max-w-9/12 mx-auto md:gap-8">
+        <div className="card transition-all duration-300 hover:scale-102 hover:shadow-lg hover:bg-green-100 pb-10 md:mb-20 mb-10 rounded-2xl bg-base-100 shadow-sm relative">
           <div className="h-8 w-8 rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] flex justify-center items-center absolute top-4 right-4 text-white">
             <p>01</p>
           </div>
@@ -32,7 +32,7 @@ const Steps = () => {
             </p>
           </div>
         </div>
-        <div className="card pb-10 md:mb-20 mb-10 rounded-2xl bg-base-100 shadow-sm relative">
+        <div className="card transition-all duration-300 hover:scale-102 hover:shadow-lg hover:bg-green-100 pb-10 md:mb-20 mb-10 rounded-2xl bg-base-100 shadow-sm relative">
           <div className="h-8 w-8 rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] flex justify-center items-center absolute top-4 right-4 text-white">
             <p>02</p>
           </div>
@@ -46,7 +46,7 @@ const Steps = () => {
             <p>Browse our catalog and select the tools that fit your needs.</p>
           </div>
         </div>
-        <div className="card pb-10 md:mb-20 mb-10 rounded-2xl bg-base-100 shadow-sm relative">
+        <div className="card transition-all duration-300 hover:scale-102 hover:shadow-lg hover:bg-green-100 pb-10 md:mb-20 mb-10 rounded-2xl bg-base-100 shadow-sm relative">
           <div className="h-8 w-8 rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] flex justify-center items-center absolute top-4 right-4 text-white">
             <p>03</p>
           </div>

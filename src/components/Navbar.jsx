@@ -3,9 +3,9 @@ import { CiShoppingCart } from 'react-icons/ci';
 
 const NavBar = ({ carts }) => {
   return (
-    <div className="navbar bg-base-100 shadow-sm px-5 md:px-20">
+    <div className="navbar sticky top-0 z-60 bg-base-100 shadow-sm px-5 md:px-20">
       <div className="navbar-start">
-        <h2 className="text-4xl font-bold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
+        <h2 className="md:text-4xl text-2xl font-bold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
           DigiTools
         </h2>
       </div>
@@ -38,7 +38,11 @@ const NavBar = ({ carts }) => {
               </div>
             )}
           </div>
-          <p>Login</p>
+          <ul>
+            <li>
+              <a href="">Login</a>
+            </li>
+          </ul>
         </div>
         <a className="btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">
           Get Started

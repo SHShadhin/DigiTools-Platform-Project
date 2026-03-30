@@ -8,14 +8,14 @@ const Price = () => {
         <h2 className="md:text-4xl pt-15 text-3xl font-bold mb-4">
           Simple, Transparent Pricing
         </h2>
-        <p className="pb-7">
+        <p className="pb-7 px-5">
           Choose the plan that fits your needs. Upgrade or downgrade anytime.
         </p>
       </div>
 
       {/* price card part */}
       <div className="grid md:grid-cols-3 grid-cols-1 gap-10 max-w-9/12 mx-auto">
-        <div className="card rounded-3xl bg-gray-100 shadow-sm">
+        <div className="card rounded-3xl bg-gray-100 shadow-sm transition-all duration-300 hover:scale-102 hover:shadow-lg hover:bg-base-200">
           <div className="card-body">
             <div>
               <h2 className="text-2xl font-bold">Starter</h2>
@@ -104,7 +104,7 @@ const Price = () => {
             </div>
           </div>
         </div>
-        <div className="card rounded-3xl relative text-white bg-gradient-to-r from-[#4F39F6] to-[#9514FA] shadow-sm">
+        <div className="card transition-all duration-300 hover:scale-102 hover:shadow-lg rounded-3xl relative text-white bg-gradient-to-r from-[#4F39F6] to-[#9514FA] shadow-sm">
           <div className="card-body">
             <span className="badge badge-lg rounded-3xl badge-warning absolute md:-top-3 md:left-30 -top-3 left-20">
               Most Popular
@@ -230,7 +230,7 @@ const Price = () => {
             </div>
           </div>
         </div>
-        <div className="card rounded-3xl bg-gray-100 shadow-sm">
+        <div className="card transition-all duration-300 hover:scale-102 hover:shadow-lg hover:bg-base-200 rounded-3xl bg-gray-100 shadow-sm">
           <div className="card-body">
             <div>
               <h2 className="text-2xl font-bold">Enterprise</h2>

@@ -14,7 +14,7 @@ const Cart = ({ carts, setCarts }) => {
     toast.success('Item Removed');
   }
   return (
-    <div className="max-w-9/12 mx-auto rounded-2xl mb-20 bg-white border border-gray-300 p-10">
+    <div className="max-w-9/12 mx-auto rounded-2xl mb-20 bg-white border border-gray-300 md:p-10 p-5">
       <h2 className="text-3xl font-bold mb-5">Your Cart</h2>
       {carts.length === 0 ? (
         <div className="bg-base-100 md:p-20">
@@ -31,18 +31,18 @@ const Cart = ({ carts, setCarts }) => {
         <>
           {carts.map(item => (
             <div key={item.id}>
-              <div className="flex justify-between items-center border border-gray-400 bg-gray-100 p-7 rounded-2xl mb-5">
-                <div className="flex gap-5 items-center">
-                  <div className="h-12 w-12 border border-gray-200 shadow-sm bg-white rounded-full p-3">
+              <div className="flex md:flex-row flex-col  justify-between items-center border border-gray-400 bg-gray-100 p-7 rounded-2xl mb-5">
+                <div className="flex md:flex-row flex-col gap-5 items-center">
+                  <div className="md:h-12 h-14 w-14 md:w-12 border border-gray-200 shadow-sm bg-white rounded-full p-3">
                     <img src={item.image} alt="" />
                   </div>
                   <div className="space-y-2">
-                    <h2 className="text-2xl font-medium">{item.name}</h2>
-                    <p>${item.price}</p>
+                    <h2 className="md:text-2xl md:text-left text-center text-lg font-medium">{item.name}</h2>
+                    <p className='md:text-left text-center'>${item.price}</p>
                   </div>
                 </div>
                 <div>
-                  <h2 onClick={()=>handleRemove(item)} className="text-red-400 text-xl font-medium cursor-pointer">Remove</h2>
+                  <h2 onClick={()=>handleRemove(item)} className="text-red-400 md:text-xl text-lg font-medium cursor-pointer">Remove</h2>
                 </div>
               </div>
             </div>

@@ -9,7 +9,7 @@ const Tools = ({ toolsPromise, carts, setCarts }) => {
         {tools.map(tool => (
           <div
             key={tool.id}
-            className="card rounded-3xl bg-white border border-gray-100 shadow-sm"
+            className="card transition-all duration-300 hover:scale-102 hover:shadow-lg hover:bg-green-50 rounded-3xl bg-white border border-gray-100 shadow-sm"
           >
             <ToolsCard
               tool={tool}

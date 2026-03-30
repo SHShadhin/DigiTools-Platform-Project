@@ -2,7 +2,7 @@ import React from 'react';
 
 const Transform = () => {
   return (
-    <div className="flex md:justify-between justify-center text-center items-center  bg-gradient-to-r from-[#4F39F6] to-[#9514FA] py-15 md:py-25 px-5 md:px-100  text-white">
+    <div className="flex  justify-center text-center items-center  bg-gradient-to-r from-[#4F39F6] to-[#9514FA] py-15 md:py-25 px-5 md:px-100  text-white">
       <div className="space-y-4">
         <h2 className="md:text-4xl text-3xl font-bold">Ready to Transform Your Workflow</h2>
         <p>

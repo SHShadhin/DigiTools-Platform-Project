@@ -26,8 +26,8 @@ function App() {
       <Stats></Stats>
 
       <div className="text-center my-5">
-        <h2 className="text-4xl font-bold">Premium Digital Tools</h2>
-        <p className="text-xl w-1/2 mx-auto my-3">
+        <h2 className="md:text-4xl text-3xl  font-bold">Premium Digital Tools</h2>
+        <p className="text-xl md:w-1/2 mx-auto px-4 my-3">
           Choose from our curated collection of premium digital products
           designed to boost your productivity and creativity.
         </p>
