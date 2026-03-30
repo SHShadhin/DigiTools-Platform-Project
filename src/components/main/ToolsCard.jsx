@@ -7,6 +7,7 @@ const ToolsCard = ({ tool, carts, setCarts }) => {
     setCarts([...carts,tool])
     
   };
+  
   return (
     <div>
       <div className="card-body relative">

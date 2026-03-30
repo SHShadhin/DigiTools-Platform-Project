@@ -21,7 +21,7 @@ function App() {
   const [carts, setCarts] = useState([])
   return (
     <>
-      <NavBar></NavBar>
+      <NavBar carts={carts}></NavBar>
       <Banner></Banner>
       <Stats></Stats>
 
@@ -45,7 +45,7 @@ function App() {
             type="radio"
             name="my_tabs_1"
             className="tab rounded-full w-40"
-            aria-label="Cart"
+            aria-label={`Cart(${carts.length})`}
             onClick={() => setActiveTab('cart')}
           />
         </div>
@@ -58,7 +58,7 @@ function App() {
           setCarts={setCarts}
         ></Tools>
       )}
-      {activeTab === 'cart' && <Cart carts={carts}></Cart>}
+      {activeTab === 'cart' && <Cart carts={carts} setCarts={setCarts}></Cart>}
       <Steps></Steps>
       <Price></Price>
       <Transform></Transform>
