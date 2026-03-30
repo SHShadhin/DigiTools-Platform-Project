@@ -32,11 +32,15 @@ function App() {
           designed to boost your productivity and creativity.
         </p>
 
-        <div className="tabs tabs-box justify-center bg-transparent">
+        <div className="tabs tabs-box mt-5 bg-white justify-center">
           <input
             type="radio"
             name="my_tabs_1"
-            className="tab rounded-full w-40"
+            className={`tab rounded-full w-40 ${
+              activeTab === 'products'
+                ? 'bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white'
+                : ''
+            }`}
             aria-label="Products"
             defaultChecked
             onClick={() => setActiveTab('products')}
@@ -44,7 +48,11 @@ function App() {
           <input
             type="radio"
             name="my_tabs_1"
-            className="tab rounded-full w-40"
+            className={`tab rounded-full w-40 ${
+              activeTab === 'cart'
+                ? 'bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white'
+                : ''
+            }`}
             aria-label={`Cart(${carts.length})`}
             onClick={() => setActiveTab('cart')}
           />

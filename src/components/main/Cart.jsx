@@ -6,9 +6,10 @@ const Cart = ({ carts, setCarts }) => {
   const handlePayment = () => {
     setCarts([])
   }
-  // const handleRemove = (item) => {
-  
-  // }
+  const handleRemove = (item) => {
+    const filteredCard = carts.filter(i => i.id !== item.id)
+    setCarts(filteredCard)
+  }
   return (
     <div className="max-w-9/12 mx-auto rounded-2xl mb-20 bg-white border border-gray-300 p-10">
       <h2 className="text-3xl font-bold mb-5">Your Cart</h2>
@@ -38,7 +39,7 @@ const Cart = ({ carts, setCarts }) => {
                   </div>
                 </div>
                 <div>
-                  {/* <h2 onClick={()=>handleRemove(item)} className="text-red-400 text-xl font-medium">Remove</h2> */}
+                  <h2 onClick={()=>handleRemove(item)} className="text-red-400 text-xl font-medium">Remove</h2>
                 </div>
               </div>
             </div>

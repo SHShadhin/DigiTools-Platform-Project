@@ -1,11 +1,13 @@
 import React from 'react';
 import bannerImg from '../assets/banner.png';
+import rectangleImg from '/Group 5.png'
 const Banner = () => {
   return (
     <div className="max-w-9/12 mx-auto md:my-20 my-10 flex flex-col-reverse md:flex-row gap-5 justify-center items-center">
       <div className="md:w-1/2 space-y-5">
         <button className="btn bg-[#E1E7FF] text-[#9514FA] rounded-3xl">
           {' '}
+          <img src={rectangleImg} alt="" />
           New: AI-Powered Tools Available
         </button>
         <h2 className="text-[#101727] text-3xl md:text-6xl font-bold">
