@@ -14,7 +14,7 @@ const Price = () => {
       </div>
 
       {/* price card part */}
-      <div className="grid md:grid-cols-3 grid-cols-1 gap-10 max-w-9/12 mx-auto">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-9/12 mx-auto">
         <div className="card rounded-3xl bg-gray-100 shadow-sm transition-all duration-300 hover:scale-102 hover:shadow-lg hover:bg-base-200">
           <div className="card-body">
             <div>
@@ -106,7 +106,7 @@ const Price = () => {
         </div>
         <div className="card transition-all duration-300 hover:scale-102 hover:shadow-lg rounded-3xl relative text-white bg-gradient-to-r from-[#4F39F6] to-[#9514FA] shadow-sm">
           <div className="card-body">
-            <span className="badge badge-lg rounded-3xl badge-warning absolute md:-top-3 md:left-30 -top-3 left-20">
+            <span className="badge badge-lg rounded-3xl badge-warning absolute md:-top-3 md:left-20 lg:left-25 -top-3 left-20">
               Most Popular
             </span>
             <div>

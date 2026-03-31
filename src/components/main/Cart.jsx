@@ -49,7 +49,7 @@ const Cart = ({ carts, setCarts }) => {
           ))}
 
           <div className="flex justify-between">
-            <h2 className="text-3xl font-medium text-purple-500">Total</h2>
+            <h2 className="md:text-3xl text-2xl font-medium text-purple-500">Total</h2>
             <p className="text-2xl font-bold">${totalPrice}</p>
           </div>
 

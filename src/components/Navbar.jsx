@@ -1,29 +1,28 @@
-import { use } from 'react';
 import { CiShoppingCart } from 'react-icons/ci';
 
 const NavBar = ({ carts }) => {
   return (
-    <div className="navbar sticky top-0 z-60 bg-base-100 shadow-sm px-5 md:px-20">
+    <div className="navbar sticky top-0 z-60 bg-base-100 shadow-sm px-5 md:px-15 ">
       <div className="navbar-start">
         <h2 className="md:text-4xl text-2xl font-bold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
           DigiTools
         </h2>
       </div>
-      <div className="navbar-center hidden md:flex">
-        <ul className="menu menu-horizontal gap-10 px-1 text-lg">
+      <div className="navbar-center hidden md:hidden lg:flex">
+        <ul className="menu menu-horizontal gap-7 px-1 text-lg">
           <li>
             <a>Products</a>
           </li>
           <li>
             <a>Features</a>
           </li>
-          <li>
+          <li >
             <a>Pricing</a>
           </li>
           <li>
             <a>Testimonials</a>
           </li>
-          <li>
+          <li className='mr-4'>
             <a>FAQ</a>
           </li>
         </ul>

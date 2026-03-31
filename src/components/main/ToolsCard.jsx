@@ -20,7 +20,7 @@ const ToolsCard = ({ tool, carts, setCarts }) => {
         <span className="badge badge-sm rounded-3xl badge-warning absolute md:top-4 md:right-5 top-3 right-4">
           {tool.tag}
         </span>
-        <div className="mt-7 h-12 w-12 border border-gray-200 shadow-sm bg-white rounded-full p-3">
+        <div className="mt-7 h-15 w-15 border border-gray-200 shadow-sm bg-white rounded-full p-3">
           <img className="w-full" src={tool.image} alt="" />
         </div>
         <div>

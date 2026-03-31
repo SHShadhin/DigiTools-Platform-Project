@@ -97,7 +97,7 @@
       "Analytics dashboard"
     ],
     "icon": "FaEnvelope",
-    "image": "https://i.ibb.co.com/N52vPpV/social-media.png"
+    "image": "https://i.ibb.co.com/DDDGfHpT/email.webp"
   },
   {
     "id": 8,
@@ -109,7 +109,7 @@
     "tagType": "best-seller",
     "features": ["Drag & drop editor", "Custom domains", "Responsive design"],
     "icon": "FaLaptopCode",
-    "image": "https://i.ibb.co.com/N52vPpV/social-media.png"
+    "image": "https://i.ibb.co.com/7NbT62vB/web-maintenance.png"
   },
   {
     "id": 9,
@@ -121,6 +121,6 @@
     "tagType": "popular",
     "features": ["Course builder", "Video hosting", "Student management"],
     "icon": "FaChalkboardTeacher",
-    "image": "https://i.ibb.co.com/N52vPpV/social-media.png"
+    "image": "https://i.ibb.co.com/0VF95bBY/webinar.png"
   }
 ]

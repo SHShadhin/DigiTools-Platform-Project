@@ -74,7 +74,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="md:col-span-3">
+          <div className="md:col-span-2">
             <h3 className="text-red-400 font-semibold mb-6 text-lg">
               Resources
             </h3>
@@ -102,11 +102,11 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="md:col-span-2">
+          <div className="md:col-span-3">
             <h3 className="text-white font-semibold mb-6 text-lg">
               Social Links
             </h3>
-            <div className="flex gap-3">
+            <div className="flex gap-4">
               <a href="" className="bg-white p-2 rounded-full shadow">
                 <AiFillInstagram className="text-xl hover:text-pink-700" />
               </a>
@@ -127,7 +127,7 @@ const Footer = () => {
             © {new Date().getFullYear()} Digitools. All rights reserved.
           </div>
 
-          <div className="flex gap-6">
+          <div className="flex md:flex-wrap gap-6">
             <a href="#" className="hover:text-red-400 transition">
               Privacy Policy
             </a>

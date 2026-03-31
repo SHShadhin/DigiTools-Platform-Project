@@ -10,10 +10,10 @@ const Banner = () => {
           <img src={rectangleImg} alt="" />
           New: AI-Powered Tools Available
         </button>
-        <h2 className="text-[#101727] text-3xl md:text-6xl font-bold">
+        <h2 className="text-[#101727] text-3xl lg:text-6xl md:text-4xl font-bold">
           Supercharge Your Digital Workflow
         </h2>
-        <p className="md:text-xl text-lg  text-[#627382]">
+        <p className="lg:text-xl md:text-lg  text-[#627382]">
           Access premium AI tools, design assets, templates, and productivity
           software—all in one place. Start creating faster today. Explore
           Products
