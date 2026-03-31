@@ -29,8 +29,8 @@ const ToolsCard = ({ tool, carts, setCarts }) => {
         </div>
 
         <div>
-          <h2 className="text-4xl font-bold">
-            {tool.price}
+          <h2 className="text-3xl font-bold">
+            ${tool.price}
             <span className="text-2xl font-thin">/{tool.period}</span>
           </h2>
         </div>
