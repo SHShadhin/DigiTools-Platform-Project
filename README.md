@@ -18,7 +18,16 @@ Users can add and remove products from the cart with real-time updates.
 Easily switch between product list and cart view.
 ### 🔔 Toast Notifications
 Alerts for add to cart, remove item, and checkout using React-Toastify.
+## 💻 How to Run Locally
 
+### ১. প্রথমে আপনার টার্মিনাল বা কমান্ড প্রম্পটে নিচের কমান্ডটি লিখুন:
+git clone https://github.com/SHShadhin/DigiTools-Platform-Project.git
+
+### ২. প্রজেক্ট ডিরেক্টরিতে প্রবেশ করুন:
+cd DigiTools-Platform-Project
+### ৩. ব্রাউজারে ওপেন করুন:
+- আপনার পছন্দের ব্রাউজারে সরাসরি index.html ফাইলটি টেনে এনে ছেড়ে দিন (Drag & Drop)।
+- অথবা, আপনি যদি VS Code ব্যবহার করেন, তাহলে Live Server এক্সটেনশনটি ব্যবহার করে প্রজেক্টটি লাইভ রান করতে পারেন।
 
 ## 🚀 Live Link  
 
