@@ -11,6 +11,9 @@ This project includes a dynamic cart system, product toggling feature, and real-
 - React-Toastify  
 - JSON (Product Data)  
 
+## 📸 Preview
+<img src='https://i.ibb.co.com/20q5fJnW/project.png'/>
+
 ## ✨ Features
 ### 🛍️ Dynamic Cart System 
 Users can add and remove products from the cart with real-time updates.
@@ -18,16 +21,33 @@ Users can add and remove products from the cart with real-time updates.
 Easily switch between product list and cart view.
 ### 🔔 Toast Notifications
 Alerts for add to cart, remove item, and checkout using React-Toastify.
-## 💻 How to Run Locally
 
-### ১. প্রথমে আপনার টার্মিনাল বা কমান্ড প্রম্পটে নিচের কমান্ডটি লিখুন:
+## 💻 How to Run Locally
+### 📌 Prerequisites
+Make sure you have the following installed:
+- 🟢 Node.js (v14 or higher)
+- 📦 npm (comes with Node.js)
+- 💻 A code editor like VS Code
+## 📥 Installation & Setup
+
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone the repository
 git clone https://github.com/SHShadhin/DigiTools-Platform-Project.git
 
-### ২. প্রজেক্ট ডিরেক্টরিতে প্রবেশ করুন:
+### 2️⃣ Navigate to project folder
 cd DigiTools-Platform-Project
-### ৩. ব্রাউজারে ওপেন করুন:
-- আপনার পছন্দের ব্রাউজারে সরাসরি index.html ফাইলটি টেনে এনে ছেড়ে দিন (Drag & Drop)।
-- অথবা, আপনি যদি VS Code ব্যবহার করেন, তাহলে Live Server এক্সটেনশনটি ব্যবহার করে প্রজেক্টটি লাইভ রান করতে পারেন।
+### 3️⃣ Install dependencies
+npm install
+
+### Run this command 
+npm run dev
+
+### 🌐 Run in Browser
+After running, open:
+#### http://localhost:3000
+or
+#### http://localhost:5173
 
 ## 🚀 Live Link  
 
